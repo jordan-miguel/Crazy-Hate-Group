@@ -1,6 +1,8 @@
 # Crazy-Hate-Group
 A simple extension for Google Chrome that replaces a few words that are wrongfully associated with terrorism, with more suited ones.
 
+![screen shot 2016-07-25 at 21 34 06](https://cloud.githubusercontent.com/assets/14114089/17116748/0a559682-52b1-11e6-892f-aca5887e9681.png)
+
 For use:
 - fork repo
 - save to your local computer
