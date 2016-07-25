@@ -1,0 +1,17 @@
+{
+"manifest_version": 2,
+    "name": "Crazy Hate GROUP",
+    "description": "This extension replaces ISLAMIC STATE with CRAZY HATE GROUP, islam with non islamic and religous with non religious. Please stay woke.",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
