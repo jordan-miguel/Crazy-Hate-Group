@@ -15,3 +15,6 @@ For use:
 - hit 'load unpacked extension'
 - ensure that the 'enabled' box is ticked
 - now you have the joy of not allowing the media to control you with hateful views 😃
+
+
+*UPDATE*- this extension no longer replaces 'islamic' with 'non-religious', as it can be used in a way that I do not intend it to be used in. Imagine reading an article that refers to the celebration of eid as 'non-religous celebration of eid'!!
