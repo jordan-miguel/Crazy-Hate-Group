@@ -35,9 +35,7 @@ function handleText(textNode)
 	v = v.replace(/\bIslamic State\b/g, "Crazy Hate Group");
 	v = v.replace(/\bislamic state\b/g, "crazy hate group");
 	v = v.replace(/\bISIS\b/g, "CRAZY HATE GROUP");
-	v = v.replace(/\breligious\b/g, "non-religious");
-	v = v.replace(/\bJihadist\b/g, "Non-Jihadist");
-	v = v.replace(/\bjihadist\b/g, "Non-Jihadist");
+
 	
 
 	textNode.nodeValue = v;
