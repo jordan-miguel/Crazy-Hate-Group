@@ -10,9 +10,9 @@ function walk(node)
 
 	switch ( node.nodeType )
 	{
-		case Node.ELEMENT_NODE:
-		case Node.DOCUMENT_NODE:
-		case Node.DOCUMENT_FRAGMENT_NODE:
+		case 1:  // Element
+		case 9:  // Document
+		case 11: // Document fragment
 			child = node.firstChild;
 			while ( child )
 			{
@@ -22,7 +22,7 @@ function walk(node)
 			}
 			break;
 
-		case Node.TEXT_NODE:
+		case 3: // Text node
 			handleText(node);
 			break;
 	}
@@ -35,8 +35,12 @@ function handleText(textNode)
 	v = v.replace(/\bIslamic State\b/g, "Crazy Hate Group");
 	v = v.replace(/\bislamic state\b/g, "crazy hate group");
 	v = v.replace(/\bISIS\b/g, "CRAZY HATE GROUP");
+	v = v.replace(/\bIsis\b/g, "CRAZY HATE GROUP");
+	v = v.replace(/\bisis\b/g, "CRAZY HATE GROUP");
+	v = v.replace(/\b(Isis)\b/g, "CRAZY HATE GROUP");
+	v = v.replace(/\b(isis)\b/g, "CRAZY HATE GROUP");
+	v = v.replace(/\b(ISIS)\b/g, "CRAZY HATE GROUP");
 
-	
 
-	textNode.nodeValue = v;
+  textNode.nodeValue = v;
 }
