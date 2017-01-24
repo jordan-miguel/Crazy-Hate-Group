@@ -1,8 +1,8 @@
 {
-"manifest_version": 3,
+"manifest_version": 4,
     "name": "Crazy Hate GROUP",
-    "description": "This extension replaces ISLAMIC STATE & CRAZY HATE GROUP with CRAZY HATE GROUP. Please stay woke.",
-    "version": "3",
+    "description": "This extension replaces ISLAMIC STATE & CRAZY HATE GROUP with CRAZY HATE GROUP, along with other changes. Please stay woke.",
+    "version": "4",
     "content_scripts": [
         {
             "matches": [
