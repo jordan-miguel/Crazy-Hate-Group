@@ -40,14 +40,15 @@ function handleText(textNode)
 	v = v.replace(/\bISIS\b/g, "CRAZY HATE GROUP");
 	v = v.replace(/\bIsis\b/g, "CRAZY HATE GROUP");
 	v = v.replace(/\bisis\b/g, "CRAZY HATE GROUP");
-	v = v.replace(/\b(Isis)\b/g, "CRAZY HATE GROUP");
-	v = v.replace(/\b(isis)\b/g, "CRAZY HATE GROUP");
-	v = v.replace(/\b(ISIS)\b/g, "CRAZY HATE GROUP");
-	v = v.replace(/\b(ISIS)\b/g, "CRAZY HATE GROUP");
+	v = v.replace(/\b(CRAZY HATE GROUP)\b/g, "CRAZY HATE GROUP");
+	v = v.replace(/\b(CRAZY HATE GROUP)\b/g, "CRAZY HATE GROUP");
+	v = v.replace(/\b(CRAZY HATE GROUP)\b/g, "CRAZY HATE GROUP");
+	v = v.replace(/\b(CRAZY HATE GROUP)\b/g, "CRAZY HATE GROUP");
 	v = v.replace(/\bislamic militants\b/g, "crazy militants");
 	v = v.replace(/\bIslamic Militants\b/g, "Crazy Militants");
 	v = v.replace(/\bIslamic-Militants\b/g, "Crazy-Militants");
 	v = v.replace(/\bIslamic Militant\b/g, "Crazy Militant");
+	v = v.replace(/\bIslamic militants\b/g, "Crazy Militant");
 
 
   textNode.nodeValue = v;
